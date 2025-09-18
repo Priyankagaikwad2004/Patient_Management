@@ -1,0 +1,108 @@
+/* Table Container */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #eaf6ea; /* Light Green Background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+thead {
+    background-color: #4caf50; /* Green Header */
+    color: #ffffff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #c8e6c9; /* Light Green Border */
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr {
+    background-color: #f1f8f1; /* Slightly lighter green for contrast */
+}
+
+tbody tr:hover {
+    background-color: #c8e6c9; /* Hover effect with lighter green */
+    transition: 0.3s;
+}
+
+/* View Button */
+.view-button {
+    padding: 8px 15px;
+    background: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.view-button:hover {
+    background: #388e3c; /* Darker green on hover */
+}
+
+.search-section {
+    
+    margin: auto;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* allows wrap on very small screens */
+}
+
+.search-bar {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #388e3c;
+    min-width: 200px;
+}
+
+.view-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-button:hover {
+    background-color: #0074a1;
+}
+
+@media (max-width: 600px) {
+    .search-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .search-bar {
+        font-size: 14px;
+        padding: 6px 10px;
+        flex: 1;
+    }
+
+    .view-button {
+        padding: 6px 10px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,97 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #ffffff;
+        }
+        .container {
+            margin-top: 15%;
+            margin-bottom: 50px;
+            width: 90%;
+            max-width: 100%;
+            background: #ffffff;
+            
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #d4d4d4;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            color: #112d4e;
+        }
+        .header h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #3f72af;
+        }
+        .section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .box {
+            background: #ebf2fa;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            margin-right: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+            border-left: 4px solid #3f72af;
+        }
+        .box:last-child {
+            margin-right: 0;
+        }
+        .btn {
+            padding: 10px 15px;
+            background: #3f72af;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            display: inline-block;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #26547c;
+        }
+        .input-group {
+            margin-top: 10px;
+        }
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .input-group input,
+        .input-group textarea {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .btn-completed {
+            background: #28a745;
+        }
+        .btn-completed:hover {
+            background: #218838;
+        }
